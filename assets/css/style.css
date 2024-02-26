@@ -1,0 +1,76 @@
+.login-button {
+    display: block; /* Changed to block for positioning purposes */
+    margin: 10px auto; /* Centers the button horizontally */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Added to make the form take up the full container width */
+  }
+  
+  /* Removed the following rule as it was causing issues with the button positioning */
+  #login-button {
+    position: absolute;
+  }
+  /* style.css */
+
+.loginbox {
+    max-width: 300px; /* Set a maximum width for the login box */
+    margin: 0 auto; /* Center the login box horizontally */
+    padding: 50px; /* Add some padding for spacing */
+    border: 1px solid #61eb68; /* Add a border for visual separation */
+    border-radius: 8px; /* Add rounded corners */
+  }
+  
+  #username,
+  #password {
+    width: 100%; /* Make the input fields take up the full width of the parent container */
+    margin-bottom: 10px; /* Add some spacing between the input fields */
+    padding: 8px; /* Add padding for better visual appearance */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .login-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
